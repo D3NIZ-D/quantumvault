@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Never commit a vault, even an encrypted one
+vault.json
+*.vault
+.vault-*
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
